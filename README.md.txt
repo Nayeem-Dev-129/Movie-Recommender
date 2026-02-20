@@ -10,3 +10,7 @@ User enters a rating, and the system recommends movies with similar ratings.
 
 ##Requirements
 pip install pandas
+
+## Output Screenshot
+
+![Output](output.png)
