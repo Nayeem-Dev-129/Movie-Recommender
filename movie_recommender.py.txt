@@ -1,0 +1,19 @@
+import pandas as pd
+
+# sample movie ratings dataset
+data = {
+    "Movie": ["Inception", "Titanic", "Avatar", "Interstellar", "Joker"],
+    "Rating": [5, 4, 5, 5, 4]
+}
+
+df = pd.DataFrame(data)
+
+print("Available movies:")
+print(df["Movie"].to_string(index=False))
+
+rating = int(input("\nEnter rating you like (1-5): "))
+
+recommendations = df[df["Rating"] == rating]
+
+print("\nRecommended Movies:")
+print(recommendations["Movie"].to_string(index=False))
