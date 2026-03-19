@@ -8,7 +8,7 @@ This project recommends movies based on user rating preferences.
 ## How it works
 User enters a rating, and the system recommends movies with similar ratings.
 
-##Requirements
+## Requirements
 pip install pandas
 
 ## Output Screenshot
